@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Generic G-Drive Darmode Extension",
+    "version": "0.0.0",
+    "content_scripts": [
+        {
+            "matches":["https://docs.google.com/*"],
+            "js":["Content.js"]
+        }
+    ],
+    "icons": {
+        "128": "G-Drive-Drkl-Mode-Icon.png"
+    }
+}

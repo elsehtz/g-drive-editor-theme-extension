@@ -1,4 +1,4 @@
-const toggle = document.getElementById('toggle');
+const toggle = document.getElementById('driveToggle');
 
 // Load saved state (default: enabled)
 chrome.storage.sync.get({ darkModeEnabled: true }, (data) => {
